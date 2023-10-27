@@ -10,7 +10,9 @@ int main() {
 
 	for (int i = 0; i < 4; i++)
 	{
+		// 변수 생성
 		RandomArray[i] = rand() % 52 + 1;
+		// 랜덤 체크
 		for (int j = 0; i < i; j++) 
 		{
 			if (RandomArray[i] == RandomArray[j]) 
